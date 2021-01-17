@@ -6,6 +6,7 @@
     "outDir": "./dist",
     "strictNullChecks": true,
     "noImplicitThis": true,
+    "noImplicitAny": false,
     
 
     "jsx": "preserve",

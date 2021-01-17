@@ -1,10 +1,11 @@
-import { callApi } from '../src/api';
+// import { callApi } from '../src/api';
 import Router from 'next/router';
 
 Page2.getInitialProps = async ({ query }: any) => {
   // throw new Error("exception in getInitialProps");
   const text = query.text || 'none';
-  const data = await callApi();
+  // const data = await callApi();
+  const data = '123123';
   return { text, data };
 };
 
