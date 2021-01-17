@@ -6,9 +6,7 @@
     "outDir": "./dist",
     "strictNullChecks": true,
     "noImplicitThis": true,
-    "noImplicitAny": false,
     
-
     "jsx": "preserve",
     "lib": [
       "dom",
@@ -29,12 +27,13 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/pages/_app.tsx"  ],
   "exclude": [
     "node_modules"
   ]
